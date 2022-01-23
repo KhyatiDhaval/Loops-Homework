@@ -8,7 +8,7 @@ public class whileLoopEvenAndOddNumber {
 
         while (e < 20) {
 
-            if (e % 2 == 0) {
+            if (e % 2 == 1) {
 
                 System.out.println(e);
 
@@ -20,7 +20,7 @@ public class whileLoopEvenAndOddNumber {
 
         while (o < 20) {
 
-            if (o % 2 == 1) {
+            if (o % 2 == 0) {
 
                 System.out.println(o);
 

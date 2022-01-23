@@ -4,26 +4,23 @@ public class DoWhileLoop {
 
     public static void main(String[] args) {
 
-        int number = 20;// to print 10 odd number
-        number = 1;
+
+        int o = 1;// to print 10 odd number
         do {
-            if (number % 2 == 1)
-                System.out.println(number);
+            if ((o % 2 != 0)) {
 
-            number++;
-        } while (number <= 20);
+                System.out.println(o);
 
+            }
+        } while ((o++) < 20);
 
-        int even = 20;// to print 10 even number
-        even = 1;
+        int e = 1; // to print 10 even number
 
-        do {
-            if (even % 2 == 0) ;
-            System.out.println(even);
+        do{
+            if (e % 2 == 0){
+                System.out.println(e);
 
-            even++;
-        } while (even <= 20);
+            }
+        } while ((e++) < 20);
+        }
     }
-
-    }
-
